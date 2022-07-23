@@ -10,8 +10,8 @@ class TcpClientDbManager{
     private:
         std::list<TcpClient*> dblist;
     public:
-        TcpServerController* tcpController;
-        TcpClientDbManager();
+        TcpServerController *tcp_svctrl;
+        TcpClientDbManager(TcpServerController *);
         ~TcpClientDbManager();
 };
 
