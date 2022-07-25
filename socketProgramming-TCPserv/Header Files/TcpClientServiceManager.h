@@ -10,6 +10,7 @@ class TcpClientServiceManager{
         TcpServerController *tcp_svctrl;
         TcpClientServiceManager(TcpServerController *);
         ~TcpClientServiceManager();
+        void startDRSthread();
 
 };
 

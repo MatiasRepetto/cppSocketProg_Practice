@@ -13,6 +13,7 @@ class TcpClientDbManager{
         TcpServerController *tcp_svctrl;
         TcpClientDbManager(TcpServerController *);
         ~TcpClientDbManager();
+        void startDBMSinit();
 };
 
 #endif

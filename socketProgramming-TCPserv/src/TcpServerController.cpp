@@ -19,7 +19,9 @@ TcpServerController::~TcpServerController(){
 }
 
 void TcpServerController::Start(){
-
+    this->CAS->startCASthread();
+    this->DRS->startDRSthread();
+    this->DBMS->startDBMSinit();
 }
 
 void TcpServerController::Stop(){

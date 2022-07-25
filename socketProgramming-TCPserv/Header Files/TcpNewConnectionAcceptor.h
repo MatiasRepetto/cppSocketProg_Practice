@@ -9,6 +9,7 @@ class TcpNewConnectionAcceptor{
         TcpServerController *tcp_svctrl;
         TcpNewConnectionAcceptor(TcpServerController *);
         ~TcpNewConnectionAcceptor();
+        void startCASthread();
 };
 
 #endif

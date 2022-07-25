@@ -8,3 +8,7 @@ TcpClientDbManager::TcpClientDbManager(TcpServerController *tcpSC){
 TcpClientDbManager::~TcpClientDbManager(){
 
 }
+
+void TcpClientDbManager::startDBMSinit(){
+    
+}

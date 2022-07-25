@@ -8,3 +8,7 @@ TcpClientServiceManager::TcpClientServiceManager(TcpServerController *tcpSC){
 TcpClientServiceManager::~TcpClientServiceManager(){
 
 }
+
+void TcpClientServiceManager::startDRSthread(){
+    
+}

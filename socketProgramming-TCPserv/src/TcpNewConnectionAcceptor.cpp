@@ -8,3 +8,7 @@ TcpNewConnectionAcceptor::TcpNewConnectionAcceptor(TcpServerController *tcpSC){
 TcpNewConnectionAcceptor::~TcpNewConnectionAcceptor(){
 
 }
+
+void TcpNewConnectionAcceptor::startCASthread(){
+    
+}
