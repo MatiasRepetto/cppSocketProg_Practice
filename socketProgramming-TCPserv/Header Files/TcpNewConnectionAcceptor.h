@@ -1,7 +1,7 @@
 #ifndef TCPNEWCONNECTIONACCEPTOR
 #define TCPNEWCONNECTIONACCEPTOR
 
-#include <thread>
+#include "Master_Header.h"
 
 class TcpServerController;
 

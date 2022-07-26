@@ -1,8 +1,6 @@
 #include "../Header Files/TcpNewConnectionAcceptor.h"
 #include "../Header Files/TcpServerController.h"
-#include <iostream>
-#include <Winsock2.h>
-#include <memory.h>
+#include "../Header Files/Master_Header.h"
 
 
 TcpNewConnectionAcceptor::TcpNewConnectionAcceptor(TcpServerController *tcpSC){
