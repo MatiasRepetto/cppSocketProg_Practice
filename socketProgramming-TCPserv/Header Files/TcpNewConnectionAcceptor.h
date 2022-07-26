@@ -8,7 +8,7 @@ class TcpServerController;
 
 class TcpNewConnectionAcceptor{
     private:
-        int acepptr_verif;
+        int acepptr_fd;
         std::thread* accept_new_con_thread;
     public:
         TcpServerController *tcp_svctrl;
